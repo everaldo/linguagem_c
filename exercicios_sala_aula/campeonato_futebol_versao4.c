@@ -56,11 +56,11 @@ int main()
         idade_media = idade_media / NUM_JOGADORES ;
         printf("A média das idades do time %d é %.2f\n", i + 1, idade_media);
     }
-    altura_media = altura_media / total_pessoas;
-    printf("A média das alturas é %.2f\n", altura_media);
 
+    altura_media = altura_media / total_pessoas;
     porcentagem_acima80kgs = 100.0 * acima80kgs / total_pessoas;
 
+    printf("A média das alturas é %.2f\n", altura_media);
     printf("O número de jogadores com menos de 18 anos é %d.\n", menores18);
     printf("A porcentagem de jogadores com mais de 80kgs é %.2f.\n", porcentagem_acima80kgs);
     return 0;
