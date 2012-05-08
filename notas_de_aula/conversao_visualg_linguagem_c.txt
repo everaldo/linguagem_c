@@ -1,0 +1,167 @@
+A linguagem C não possui um comando para definir o nome do algoritmo.
+
+O programa principal é definido pela função main.
+
+
+Ao invés de inicio e fimalgoritmo usa-se { e } em C.
+
+
+inteiro é int em C.
+
+real é float ou double em C.
+
+caractere é char em C.
+
+logico não existe em C. Pode-se usar char, se o valor for zero é falso, senão é verdadeiro.
+
+
+Em Visualg para fazer um vetor, seria:
+
+vetor inteiro
+
+em C:
+
+int nome_vetor[10];
+
+
+Em Visualg o operador de atribuição é <-. Em C o operador de atribuição é o sinal de igual =
+
+
+a <- 3
+a = 3;
+
+Valor1 <- 1.5
+Valor1 = 1.5;
+
+Valor2 <- Valor1 + a
+Valor2 = Valor1 + a;
+
+vet[1] <- vet[1] + (a * 3)
+vet[0] = vet[0] + (a * 3);
+
+matriz[3,9] <- a/4 - 5
+
+matriz[2][8] = a / 4 - 5;
+
+nome_do_aluno <- "José da Silva"
+nome_do_aluno = strdup("José da Silva"); //Observação: existem outros meios de se fazer isso. Pois C não suporta o tipo String nativo,
+//mas apenas vetor de char
+
+
+sinalizador <- FALSO
+
+sinalizador = 0; //C não possui tipo booleano. Mas toda expressão com resultado 0 avalia como false e qualquer valor diferente de zero é true.
+
+
+Operador de divisão inteira:
+
+Visualg: \
+Em C: /
+
+
+Linguagem C não tem operador de potentiação (^ em Visualg)
+
+
+Linguagem C não possui operador de concatenação de strings. Deve-se usar a função strcat()
+
+
+Em Visualg o operador relacional de igualdade é =.
+Em C o operador relacional de igualdade é == (igual-igual - dois sinais de iguais seguidos e juntos). Lembrando que, em C, = significa atribuição
+
+
+Em Visualg o operador relacional diferente é <>;
+Em C este operador é !=
+
+
+
+Operadores Lógicos:
+
+
+Em Visualg o operador de negação lógica é "nao"
+Em C o operador de negação lógica é ! (ponto de exclamação)
+
+
+Em Visualg o operador lógico de conjunção ("ou") é "ou".
+Em C o operador lógico de conjunção é || (duas barras verticais)
+
+
+Em Visualg o operador lógico de disjunção ("e")  é "e".
+Em C o operador lógico de disjunção é && (dois símbolos "e comercial")
+
+Em Visualg o operador de (XOR) "ou exclusivo" é "xou".
+Em C, não há operador de "ou exclusivo" XOR. Existe o operador ^ - mas ele realiza xor bit-a-bit.
+
+Para simular "xou" em C, utilize: (a && !b) || (!a && b) - onde a e b são os operandos
+
+
+Em Visualg o comando de saída padrão é escreva ou escreval
+
+Em C o comando de saída padrão é o printf
+
+
+Em Visualg o comando de entrada padrão é leia
+
+Em C o comando de entrada padrão é o scanf
+
+(detalhes serão apresentados posteriormente)
+
+
+se <expressão-lógica> entao
+<seqüência-de-comandos>
+fimse
+
+if ( <expressão-lógica> ) {
+  <seqüência-de-comandos>
+}
+
+Parênteses são obrigatórios
+Só é necessário colocar { e } se houver mais de um comando
+
+se <expressão-lógica> entao
+<seqüência-de-comandos-1>
+senao
+<seqüência-de-comandos-2>
+fimse
+
+if ( <expressão-lógica> ) {
+  <seqüência-de-comandos-1>
+}
+else {
+  <seqüência-de-comandos-2>
+}
+
+
+escolha <expressão-de-seleção>
+caso <exp11>, <exp12>, ..., <exp1n>
+  <seqüência-de-comandos-1>
+caso <exp21>, <exp22>, ..., <exp2n>
+  <seqüência-de-comandos-2>
+...
+outrocaso
+  <seqüência-de-comandos-extra>
+fimescolha
+
+
+
+switch (<expressão-lógica>)
+{
+    case <label1> :
+      <seqüência-de-comandos-1>
+      break;
+    case <label2> :
+      <seqüência-de-comandos-2>
+      break;
+    default :
+      <seqüência-de-comandos-extra>
+}
+
+//Só funciona para valores inteiros - não funciona com strings
+//Começa a executar a partir do label e se não for colocado o comando break continua executando até o fim
+
+
+
+
+
+
+
+ 
