@@ -20,8 +20,7 @@ int main(){
 
   printf("Serão necessárias %d ferraduras\n", ferraduras);
 
-
-
+  return 0; //quando a função main retorna 0 indica que o programa executou com sucesso
 }
 
 
