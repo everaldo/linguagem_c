@@ -41,7 +41,7 @@ int main(){
  
   printf("A distância entre %s e %s é igual a %f\n", origem, destino, distancia);
 
-
+  return 0;
 }
 
 

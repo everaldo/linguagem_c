@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 int main(){
   char cidade[50];
   float latitude, longitude; //a palavra long é reservada na linguagem C, então não é possível criar uma variável com o nome long
@@ -13,5 +11,5 @@ int main(){
     printf("%s: %f %f\n",cidade, latitude, longitude);
   } 
 
-
+  return 0;
 }
