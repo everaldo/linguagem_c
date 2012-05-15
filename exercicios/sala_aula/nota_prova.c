@@ -55,4 +55,5 @@ int main(){
       printf(" reprovado.\n");
 
   }
+  return 0;
 }
