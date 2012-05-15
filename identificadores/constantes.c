@@ -30,4 +30,6 @@ int main(){
   printf("O perímetro da circunferência de raio %f é %f\n", raio, perimetro);
   printf("A área da circunferência de raio %f é %f\n", raio, area);
 
+
+  return 0;
 }
