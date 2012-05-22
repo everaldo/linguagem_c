@@ -1,6 +1,6 @@
 /* Everaldo Gomes - 22/05/2012
 
-Conversão de binário para decimal
+Conversão de decimal para binário
 
 versão 1
 
