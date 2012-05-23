@@ -33,7 +33,7 @@ int main(){
     binario = binario + resto;
     num_digitos_binarios++; //equivalente a num_digitos_binarios = num_digitos_binarios + 1;
   }
-  //resultado sai invertido, precisa inverter o número para encontrar resultado
+  //resultado sai com digitos invertidos, precisa inverter os dígitos do número para encontrar resultado
 
   aux = binario;
   inverso = 0;
