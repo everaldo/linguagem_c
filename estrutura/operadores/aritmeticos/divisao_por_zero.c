@@ -5,6 +5,7 @@
 int main(){
 
   printf("%d\n", 1 / 0);    // Impossível dividir por zero
+  //printf("%d\n", 1 % 0);  //O operador módulo % também não aceita zero como operando
   printf("Esta instrução nunca será executada - isso não será escrito na tela\n");
 
 
