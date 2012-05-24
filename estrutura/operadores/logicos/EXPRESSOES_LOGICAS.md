@@ -1,9 +1,20 @@
-= Expressões Lógicas
+# Expressões Lógicas
 
 Na linguagem C, toda expressão tem um valor lógico (verdadeiro ou falso)
 
 Qualquer expressão que avalie o valor 0 (zero) tem valor lógico falso.
 Enquanto que, as expressões que avaliem para qualquer valor diferente de 0 (zero) tem valor lógico verdadeiro.
+
+Os operadores lógicos da linguagem C são:
+
+```c
+&& // E -> verdadeiro quando os dois operandos são verdadeiros
+|| // OU -> verdadeiro quando um dos operandos é verdadeiro
+!  // NAO -> verdadeiro quando o seu operando é falso
+
+
+```
+
 
 Assim:
 
