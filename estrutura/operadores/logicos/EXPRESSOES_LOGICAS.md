@@ -7,6 +7,7 @@ Enquanto que, as expressões que avaliem para qualquer valor diferente de 0 (zer
 
 Assim:
 
+
 ```c
 
 int x = 2, y = 3, z = 0;
