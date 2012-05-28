@@ -1,0 +1,1 @@
+../../sala_aula/eng_mecanica/soma_pares.c

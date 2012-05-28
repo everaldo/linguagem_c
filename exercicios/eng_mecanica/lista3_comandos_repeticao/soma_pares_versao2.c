@@ -1,0 +1,1 @@
+../../sala_aula/eng_mecanica/soma_pares_versao2.c
