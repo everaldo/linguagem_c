@@ -12,7 +12,7 @@ int main(){
   printf("%d\n", 'A' != 65); //imprime 0 -> letras (char) são armazenados como números inteiros de 1byte
 
   printf("%d\n", 'A' != 'a'); //imprime 1 -> letras maiúsculas são diferentes de minúsculas
-  printf("%d\n", 2 != 3); //imprime 1 -> retorna falso quando os operandos são diferentes
+  printf("%d\n", 2 != 3); //imprime 1 -> retorna verdadeiro quando os operandos são diferentes
 
 
 
