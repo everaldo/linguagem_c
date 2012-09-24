@@ -13,7 +13,7 @@ e termina com um asterisco barra. Este texto está dentro de um bloco de coment�
 */
 
 
-/* O compilador ignora os comentários e eles não estão presentes no código fonte */
+/* O compilador ignora os comentários e eles não estão presentes no código executável (binário) */
 
 #include <stdio.h> // Inclui a biblioteca de entrada e saída padrões
 
