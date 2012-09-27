@@ -7,7 +7,7 @@ Exercício resolvido em sala de aula
 - Exercício número 1 da lista 3 - Comandos de Repetição
 
 Ler números inteiros do teclado e calcular 
-a soma dos que forem par. A leitura 
+a soma dos que forem pares. A leitura 
 deve parar quando o valor 0 (zero) for digitado
 
 */
