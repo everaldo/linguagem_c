@@ -19,7 +19,7 @@ Só funciona até 1023
 #include <stdio.h>
 
 
-int binario_decimal(int decimal){
+int decimal_binario(int decimal){
   int aux, resto;
   if (decimal == 0){
     return 0;
@@ -31,7 +31,7 @@ int binario_decimal(int decimal){
     aux = decimal;
     resto = aux % 2;
     aux = aux / 2;
-    return (binario_decimal(aux) * 10) + resto;
+    return (decimal_binario(aux) * 10) + resto;
   }
 }
 
@@ -41,7 +41,7 @@ int main(){
   puts("Digite um número decimal para conversão em base binária");
   scanf("%d",&decimal);
 
-  binario = binario_decimal(decimal);
+  binario = decimal_binario(decimal);
 
   printf("Valor em binário= %d\n", binario);
 
