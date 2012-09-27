@@ -1,6 +1,6 @@
 /* Everaldo Gomes - 17/05/2012
 
-Construa um algoritmo que leia 3 notas de uma aluno,
+Construa um algoritmo que leia 3 notas de um aluno,
 calcule e mostre a média aritmética e
 uma mensagem que depende do valor da média como na tabela abaixo. 
 
