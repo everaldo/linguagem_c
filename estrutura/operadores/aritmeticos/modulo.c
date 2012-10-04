@@ -23,7 +23,7 @@ int main(){
   printf("%d\n", 7 % 10);                //imprime  7
   printf("%d\n", 8 % 10);                //imprime  8
   printf("%d\n", 9 % 10);                //imprime  9
-  printf("%d\n", 10 % 10);               //imprime 10
+  printf("%d\n", 10 % 10);               //imprime 0
 
 /*
 Verifica se um número é par ou ímpar
