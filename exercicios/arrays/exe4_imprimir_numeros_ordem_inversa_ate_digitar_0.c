@@ -5,12 +5,9 @@
  *
  *
  */
-
-
-#define MAX 100
-
 #include <stdio.h>
 
+#define MAX 100
 
 int main(){
   int i, tam = 0;
