@@ -1,4 +1,4 @@
-/* Everaldo Gomes - 11/10/2012
+/* Everaldo Gomes - 13/10/2012
  *
  * Um professor deseja calcular a média da turma em uma avaliação. 
  * Leia um conjunto de notas num array de números reais e calcule sua média, com 4 casas decimais de precisão. 

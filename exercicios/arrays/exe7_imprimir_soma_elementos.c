@@ -1,4 +1,4 @@
-/* Everaldo Gomes - 11/10/2012
+/* Everaldo Gomes - 13/10/2012
  *
  *   Leia uma sequência de números, terminada pela leitura do número -1 e, em seguida, imprima a soma de todos os elementos 
  *
