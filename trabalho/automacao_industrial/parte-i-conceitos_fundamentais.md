@@ -60,7 +60,7 @@ inteiras com o valor zero, com e sem atribuição múltipla.
 e pré-decremento.
 
 
-5. Analise o seguinte trecho de código e responda qual o valor de *a* e *b* após os comandos terem sido executados
+5. Analise o seguinte trecho de código e responda qual o valor de *a* e *b* após os comandos terem sido executados:
 
 ```c
   int a, b;
@@ -70,6 +70,46 @@ e pré-decremento.
   a = a + b++;
 
 ```
+
+6. Analise o seguinte trecho de código e responda qual o valor de *a* e *b* após os comandos terem sido executados:
+
+```c
+  int a, b;
+  a = 2;
+  b = 3;
+
+  a = a + --b;
+
+```
+
+### Operadores Lógicos e Relacionais
+
+1. Quais os valores retornados pelos operadores lógicos e relacionais. O que eles significam?
+
+
+2. Quais os 6 operadores relacionais da linguagem C?
+
+
+3. Quais os 3 operadores lógicos da linguagem C?
+
+
+4. Explique o funcionamento do operador ternário - expresso pelo símbolo ponto-de-interrogação (*?*).
+
+
+### Operadores de Ponteiros
+
+1. O que é um ponteiro ou apontador?
+
+
+2. O que faz o operador de ponteiro *&amp;*
+
+
+
+
+
+
+
+
 
 
 
