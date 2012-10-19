@@ -101,7 +101,10 @@ e pré-decremento.
 1. O que é um ponteiro ou apontador?
 
 
-2. O que faz o operador de ponteiro *&amp;*
+2. O que faz o operador de ponteiros *&amp;* ?
+
+
+3. O que faz o operador de ponteiros * ?
 
 
 
