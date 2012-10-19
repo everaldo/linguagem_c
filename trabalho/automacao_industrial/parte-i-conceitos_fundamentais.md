@@ -107,6 +107,20 @@ e pré-decremento.
 3. O que faz o operador de ponteiros * ?
 
 
+### Operador sizeof
+
+1. Explique o que o operador sizeof faz e sua importância.
+
+
+### Operador parênteses
+
+
+1. Explique a importância do operador parênteses ().
+
+
+
+
+
 
 
 
