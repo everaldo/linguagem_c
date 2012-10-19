@@ -52,6 +52,35 @@ inteiras com o valor zero, com e sem atribuição múltipla.
 
 1. Explique o funcionamento do operador módulo *%*.
 
+2. O operador módulo (*%*) pode ser utilizado com operandos do tipo ponto flutuante?
+
+3. Explique o funcionamento do operador de divisão */* com operandos inteiros e com operandos do tipo *float* ou *double*.
+
+4. Explique o funcionamento dos operadores de incremento (*++*) e decremento (*--*) e as diferenças entre pós-incremento
+e pré-decremento.
+
+
+5. Analise o seguinte trecho de código e responda qual o valor de *a* e *b* após os comandos terem sido executados
+
+```c
+  int a, b;
+  a = 2;
+  b = 3;
+
+  a = a + b++;
+
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
