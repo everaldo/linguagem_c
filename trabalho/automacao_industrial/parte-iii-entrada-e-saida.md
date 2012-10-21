@@ -13,10 +13,8 @@ da linguagem C?
 2. O seguinte trecho de código realiza a leitura de um número inteiro. Entretanto, ele contém dois erros.
 Corrija-os e justifique sua resposta.
 
-        ```c
           int n;
           scanf("%f", n);
-        ```
 
 3. Explique o trecho de código abaixo (linha 2).
 
