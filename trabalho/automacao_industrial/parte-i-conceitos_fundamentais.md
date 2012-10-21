@@ -40,7 +40,7 @@
 
 ## Operadores
 
-1. O que faz o operador de atribuição *=*? O que deve estar do seu lado esquerdo? E o que pode ser posto do lado direito?
+1. O que faz o operador de atribuição *=* (símbolo sinal de igual)? O que deve estar do seu lado esquerdo? E o que pode ser posto do lado direito?
 
 2. Para que serve a atribuição múltipla? Dê um exemplo de um pequeno trecho de código que inicializa quatro variáveis
 inteiras com o valor zero, com e sem atribuição múltipla.
@@ -93,7 +93,7 @@ e pré-decremento.
 3. Quais os 3 operadores lógicos da linguagem C?
 
 
-4. Explique o funcionamento do operador ternário - expresso pelo símbolo ponto-de-interrogação (*?*).
+4. Explique o funcionamento do operador ternário - expresso pelo símbolo ponto-de-interrogação (*?*) e dois-pontos (*:*) *op1 ? op2 : op3*  .
 
 
 ### Operadores de Ponteiros
