@@ -1,6 +1,6 @@
 <style type="text/css">
   ul {
-    list-style: "none";
+    list-style-type: "none";
   }
 </style>
 
