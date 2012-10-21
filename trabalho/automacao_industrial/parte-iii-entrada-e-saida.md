@@ -1,3 +1,9 @@
+<style type="text/css">
+  ul {
+    list-style: "none";
+  }
+<style>
+
 # Entrada e Saída
 
 * Comandos de Entrada
