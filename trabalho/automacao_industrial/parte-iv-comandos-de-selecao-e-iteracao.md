@@ -84,11 +84,17 @@
 para os seguintes valores da variável inteira idade.
 
 a) idade = 3;
+
 b) idade = 5;
+
 c) idade = 7;
+
 d) idade = 8;
+
 e) idade = 12;
+
 f) idade = 15;
+
 g) idade = 45;
 
 
@@ -119,8 +125,11 @@ g) idade = 45;
 inteira opcao:
 
 a) opcao = 1;
+
 b) opcao = 2;
+
 c) opcao = 3;
+
 d) opcao = 9;
 
 
@@ -145,5 +154,98 @@ d) opcao = 9;
 ## Comandos For, While e Do-While
 
 
+Nos próximos exercícios você deve indicar, de maneira resumida, o que o trecho de código faz. Por exemplo: "imprime 100 vezes a mensagem alô mundo"
+para o código abaixo:
+
+```c
+  for(i = 0; i < 100; i++){
+    puts("Alo mundo\n");
+  }
+```
+
+### Comando For
+
+
+1\. Explique o código abaixo.
+
+
+```c
+  for(i = 0; i < 500; i++){
+    printf("%d ", i + 1);
+  }
+  printf("\n");
+```
+
+
+2\. Quantas vezes o bloco de comandos aninhado ao *for* será executado no código abaixo.
+
+
+```c
+  for(i = 0; i < 100; i = i + 10){
+   printf("%d ", i);
+  }
+```
+
+
+3\. O código abaixo é válido e equivalente ao do exercício 1?
+
+
+```c
+  int i = 0;
+  for(; i < 500;){
+    printf("%d ", i + 1);
+    i++;
+  }
+  printf("\n");
+```
+
+
+4\. O código abaixo é válido e equivalente ao do exercício 1?
+
+
+```c
+  int i = 0;
+  for(i < 500){
+    printf("%d ", i + 1);
+    i++;
+  }
+  printf("\n");
+```
+
+5\. O código abaixo é equivalente ao do exercício 1?
+
+
+```c
+  for(i = 1; i <= 500; i++){
+    printf("%d ", i);
+  }
+  printf("\n");
+``` 
+
+
+6\. Quantas vezes o bloco de comandos associado ao comando while irá executar?
+
+
+```c
+  int x, y;
+  x = y = 0;
+
+  while(x < 1000 && y < 100){
+    x++;
+    y++;
+
+  }
+
+```
+
+7\. Quantas vezes o bloco de comandos associado ao comando do-while irá executar?
+
+```c
+  int x = 500;
+  do{
+    printf("%d \n", x + 1);
+    x++;
+  }while(x <= 500);
+```
 
 
