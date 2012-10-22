@@ -8,7 +8,7 @@
 
 3. Por que as variáveis devem ser declaradas antes de serem utilizadas?
 
-4. Explique a importância da inicialização das variáveis: o que acontece se o programador utilizar uma variável não inicializada.
+4. Explique a importância da inicialização das variáveis: o que acontece se o programador utilizar uma variável não inicializada?
 
 5. Quais os tipos nativos de variáveis que a linguagem C fornece. Dica: são 5 tipos.
 
@@ -114,7 +114,7 @@ e pré-decremento.
 
 ## Cálculo de Expressões
 
-Calcule o resultado das seguintes expressões
+Calcule o resultado das seguintes expressões. Se o resultado for um número em ponto flutuante, indique isso junto com o valor da expressão.
 
 
 1. `1 + 1`
@@ -147,7 +147,7 @@ Calcule o resultado das seguintes expressões
 10. `1 > 1`
 
 
-11`1 >= 1`
+11. `1 >= 1`
 
 
 12. `0 < 0`
