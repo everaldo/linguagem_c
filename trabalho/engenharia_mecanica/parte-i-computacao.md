@@ -2,15 +2,15 @@
 
 ## Computação e Sociedade
 
-1. Escreva um pequeno parágrafo sobre a importância dos programas de computadores, em nossa sociedade.
+1. Escreva um pequeno parágrafo sobre a importância dos programas de computadores em nossa sociedade.
 
-2. Cite exemplos de problemas que não podem ser resolvidos por um programa.
+2. Cite exemplos de problemas que não podem ser resolvidos por um programa de computador.
 
-3. Cite exemplos de problemas que podem ser resolvidos com auxílio da computação. (Exemplos: cálculo de uma folha de pagamento,
-previsão do tempo, sistema bancário, simuladores etc.).
+3. Cite exemplos de problemas que podem ser resolvidos com auxílio da computação. Exemplos: cálculo de uma folha de pagamento,
+previsão do tempo, sistema bancário, simuladores etc.
 
-4. Cite exemplos de problemas que você gostaria que fossem resolvidos e que podem ser solucionados computacionalmente. (Exemplos:
-desmatamento, poluição, desperdício de alimentos, fome, miséria etc.).
+4. Cite exemplos de problemas que você gostaria que fossem resolvidos e que podem ser solucionados computacionalmente. Exemplos:
+desmatamento, poluição, desperdício de alimentos, fome, miséria etc.
 
 
 
@@ -19,7 +19,7 @@ desmatamento, poluição, desperdício de alimentos, fome, miséria etc.).
 1. Você gostaria de aprender outra linguagem de programação?
 
 
-2. Qual aspecto da programação você achou mais difícil ou teve mais dificuldade?
+2. Qual aspecto da programação você gostou menos ou teve mais dificuldade?
 
 
 3. Qual aspecto da programação você mais gostou ou achou mais fácil?

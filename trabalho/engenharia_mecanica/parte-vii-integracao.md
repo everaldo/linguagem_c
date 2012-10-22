@@ -10,7 +10,7 @@ máximo, com uma variável do tipo inteira).
 
 
 2\. Escreva um programa que simule uma calculadora: imprima um menu com as operações disponíveis.
-Depois, leia os operandos, caso a operação não seja sair e realize o cálculo escolhido pelo usuário.
+Depois, leia os operandos, caso a operação escolhida não tenha sido SAIR, e  realize o cálculo escolhido pelo usuário.
 Imprima o resultado, mas evite os casos de divisão por zero. O programa só acaba quando o usuário
 digitar a opção 0. Se ele digitar uma opção inválida, exiba na tela a mensagem "Opção inválida"
 e imprima novamente o menu. 
@@ -18,9 +18,13 @@ e imprima novamente o menu.
 Operações:
 
 1 - Soma
+
 2 - Subtracao
+
 3 - Multiplicacao
+
 4 - Divisao
+
 0 - Sair
 
 
@@ -29,8 +33,11 @@ cada time possui 11 jogadores. Faça um algoritmo que
 recebe a idade, o peso e a altura de cada um dos jogadores. Calcule e mostre:
 
 a) A quantidade de jogadores com idade inferior a 18;
+
 b) A média das idades dos jogadores de cada time;
+
 c) A média das alturas de todos os jogadores do campeonato
+
 d) A porcentagem de jogadores com mais de 80kg do campeonato
 
 
