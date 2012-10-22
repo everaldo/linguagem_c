@@ -27,9 +27,13 @@ e imprima novamente o menu.
 Operações:
 
 1 - Soma
+
 2 - Subtracao
+
 3 - Multiplicacao
+
 4 - Divisao
+
 0 - Sair
 
 
