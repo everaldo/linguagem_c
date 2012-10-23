@@ -29,7 +29,7 @@ int main(){
 
 
   puts("Ordenando o vetor pelo método misto (mistura de Bubble Sort com Select Sort)");
-  for(i = 0; i < n -1; i++)
+  for(i = 0; i < n -1; i++){
     for(j = i + 1; j < n; j++){
       if (v[i] > v[j]){
         temp = v[j];
@@ -37,6 +37,7 @@ int main(){
         v[i] = temp;
       }
     }
+  }
 
 
   puts("Imprimindo o vetor após a ordenação...");
