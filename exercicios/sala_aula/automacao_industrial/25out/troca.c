@@ -18,7 +18,10 @@ void imprime(int x, int y);
 int main(void){
   int x, y;
 
-  puts("Este programa lê dois valores e realiza a troca. Ou seja, a variável armazenou o primeiro valor termina com o segundo valor e vice-versa");
+  puts("Este programa lê dois valores"
+        "e realiza a troca. Ou seja, a variável"
+        "armazenou o primeiro valor termina com o"
+        "segundo valor e vice-versa");
   leia(&x,&y);
   puts("Antes da troca");
   imprime(x,y);
