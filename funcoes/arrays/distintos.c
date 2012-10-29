@@ -2,7 +2,7 @@ void distintos(int *v, int n, int* distintos, int *tam_distintos);
 
 
 
-void repetidos(int *v, int n, int* distintos, int *tam_distintos){
+void distintos(int *v, int n, int* distintos, int *tam_distintos){
   int i, j, repetido;
 
   *tam_distintos = 0;
