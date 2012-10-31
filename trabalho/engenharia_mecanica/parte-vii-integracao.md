@@ -80,19 +80,19 @@ Imprima a posição de x (somente a primeira posição, no caso de múltiplas oc
 9\. Leia uma sequência de n números e armazene-os em um array. Após, leia o valor de uma posição do vetor e realize uma remoção.
 No final imprima o vetor.
 
-6\. Leia uma sequência de n números e armazene-os em um array. Após, leia o valor de uma posição e de um valor x, que será inserido na
+10\. Leia uma sequência de n números e armazene-os em um array. Após, leia o valor de uma posição e de um valor x, que será inserido na
 posição indicada. No final imprima o vetor.
 
 
-10\. Leia dois vetores de tamanho n. Verifique se eles são idênticos. Imprima "são idênticos" ou "não são idênticos"
+11\. Leia dois vetores de tamanho n. Verifique se eles são idênticos. Imprima "são idênticos" ou "não são idênticos"
 
-11\. Leia dois vetores de tamanho n. Construa um terceiro vetor que é a concatenação dos dois primeiros.
+12\. Leia dois vetores de tamanho n. Construa um terceiro vetor que é a concatenação dos dois primeiros.
 
 
-12\. Leia dois vetores de números inteiros de tamanho n. Construa um terceiro vetor que é a união dos dois primeiros.
+13\. Leia dois vetores de números inteiros de tamanho n. Construa um terceiro vetor que é a união dos dois primeiros.
 Dica: a união pode ser feita da seguinte forma:  concatene os dois vetores. Depois, retire os elementos repetidos.
 
-13\. Leia dois vetores de números inteiros de tamanho n. Construa um terceiro vetor que é a intersecção dos dois primeiros.
+14\. Leia dois vetores de números inteiros de tamanho n. Construa um terceiro vetor que é a intersecção dos dois primeiros.
 Dica: a intersecção pode ser feita da seguinte forma: concatene os dois vetores. Depois, construa outro vetor
 formado somente pelos elementos repetidos do vetor concatenado. Esse vetor constitui a intersecção dos dois primeiros.
 
@@ -100,12 +100,12 @@ formado somente pelos elementos repetidos do vetor concatenado. Esse vetor const
 
 **Os próximos exercícios referem-se a conceitos que ainda serão vistos nas próximas aulas**
 
-14\. Escreva uma função que receba dois argumentos do tipo inteiro (int) e realize a troca desses dois valores.
+15\. Escreva uma função que receba dois argumentos do tipo inteiro (int) e realize a troca desses dois valores.
 O tipo de retorno da função é void. Use passagem de parâmetros por referência.
 
 
 
-15\. Escreva uma função que receba dois argumentos do tipo inteiro (int) e compara-os. O nome da função é "compara"
+16\. Escreva uma função que receba dois argumentos do tipo inteiro (int) e compara-os. O nome da função é "compara"
 e o tipo de retorno é inteiro (int). Se os dois números são iguais, a função deve retornar zero. Se o primeiro argumento 
 é menor que o segundo, a função retorna -1. Senão, se o segundo argumento for maior que o primeiro, a função retorna 1.
 
