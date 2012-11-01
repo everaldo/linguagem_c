@@ -1,13 +1,16 @@
-void insercao(int *v, int* n, int posicao, int x);
+#include "vetor.h"
 
 
-void insercao(int *v, int* n, int x){
+void insercao(vetor *v, int posicao, int x);
+
+
+void insercao(vetor *v, int posicao, int x){
   int i;
 
-  (*n)++;
-  for(i = *n - 1;  i > posicao; i--){
-    v[i] = v[i - 1];
+  (v->tam)++;
+  for(i = v->tam - 1;  i > posicao; i--){
+    v->elementos[i] = v->elementos[i - 1];
   }
-  v[i] = x;
+  v->elementos[i] = x;
 
 }

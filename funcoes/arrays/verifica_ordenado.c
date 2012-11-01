@@ -1,9 +1,12 @@
-int verifica_ordenado(int* v, int n){
+#include "vetor.h"
+
+
+int verifica_ordenado(vetor v){
   int i;
   int ordenado = 1;
   
-  for(i = 0; i < n - 1; i++){
-    if ( v[i] > v[i + 1]){
+  for(i = 0; i < v.tam - 1; i++){
+    if ( v.elementos[i] > v.elementos[i + 1]){
       ordenado = 0;
       break;
     }

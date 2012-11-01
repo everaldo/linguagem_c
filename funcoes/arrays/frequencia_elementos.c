@@ -1,24 +1,30 @@
-void frequencia_elementos(int* v, int n, int *elementos, int *frequencia, int *tam_elementos);
+#include "vetor.h"
 
 
-void frequencia_elementos(int* v, int n, int *elementos, int *frequencia, int *tam_elementos){
+void frequencia_elementos(vetor v, vetor *elementos, vetor *frequencias);
+
+
+void frequencia_elementos(vetor v, vetor *elementos, vetor *frequencias){
+  
   int i, j, repetido;
 
-  *tam_elementos = 0;
+  elementos->tam = 0;
+  frequencias->tam = 0;
 
-  for(i = 0; i < n ; i++){
+  for(i = 0; i < v.tam ; i++){
     repetido = 0;
-    for(j = 0; j < tam_elementos; j++){
-      if (v[i] == elementos[j]){
-        frequencias[j]++;
+    for(j = 0; j < elementos->tam; j++){
+      if (v.elementos[i] == elementos->elementos[j]){
+        (frequencias->elementos[j])++;
         repetido = 1;
         break;
       }
     }
     if (! repetido){
-      elementos[*tam_elementos] = v[i];
-      frequencias[*tam_elementos] = 1;
-      *tam_elementos++;
+      elementos->elementos[elementos->tam] = v.elementos[i];
+      frequencias->elementos[frequencias->tam] = 1;
+      (elementos->tam)++;
+      (frequencias->tam)++;
     }
   }
 }

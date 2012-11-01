@@ -1,0 +1,8 @@
+Esta Seção de Código apresenta o protótipo e a implementação de diversas funções com vetores,
+definidas no arquivo vetor.h
+
+Porém esses arquivos não podem ser compilados isolados.
+
+Esses arquivos devem ser incluídos no programa que você deseja criar.
+
+

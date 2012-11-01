@@ -1,23 +1,23 @@
-void distintos(int *v, int n, int* distintos, int *tam_distintos);
+#include "vetor.h"
 
+void distintos(vetor v, vetor *distintos);
 
-
-void distintos(int *v, int n, int* distintos, int *tam_distintos){
+void distintos(vetor v, vetor *distintos){
   int i, j, repetido;
 
-  *tam_distintos = 0;
+  distintos->tam = 0;
 
-  for(i = 0; i < n ; i++){
+  for(i = 0; i < v.tam ; i++){
     repetido = 0;
-    for(j = 0; j < *tam_distintos; j++){
-      if (v[i] == distintos[j]){
+    for(j = 0; j < distintos->tam; j++){
+      if (v.elementos[i] == distintos->elementos[j]){
         repetido = 1;
         break;
       }
     }
     if (! repetido){
-      distintos[*tam_distintos] = v[i];
-      *tam_distintos++;
+      distintos->elementos[distintos->tam] = v.elementos[i];
+      (distintos->tam)++;
     }
   }
 }

@@ -1,7 +1,7 @@
 void insercao(int *v, int* n, int posicao, int x);
 
 
-void insercao(int *v, int* n, int x){
+void insercao(int *v, int* n, int posicao, int x){
   int i;
 
   (*n)++;

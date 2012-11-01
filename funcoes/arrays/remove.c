@@ -1,12 +1,15 @@
-void remove(int *v, int* n, int posicao);
+#include "vetor.h"
 
 
-void remove(int *v, int* n, int posicao){
+void remove(vetor *v, int posicao);
+
+
+void remove(vetor *v, int posicao){
   int i;
 
-  for(i = posicao; i < *n - 1; i++){
-    v[i] = v[i + 1];
+  for(i = posicao; i < v->tam - 1; i++){
+    v->elementos[i] = v->elementos[i + 1];
   }
-  (*n)--; //mesmo que n = n - 1;
+  (v->tam)--; //mesmo que v->tam = v->tam - 1;
 
 }
