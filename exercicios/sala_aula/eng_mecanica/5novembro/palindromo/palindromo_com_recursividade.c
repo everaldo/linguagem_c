@@ -3,7 +3,7 @@
  * Programa verifica se uma string é palíndromo
  *
  *
- *  Versão que utiliza funções
+ * Utiliza Recursividade
  *
  */
 
@@ -13,9 +13,9 @@
 #define MAX 100
 
 void le_string(char* palavra); //Essa função lê a string
-int palindromo(char* palavra); //Verifica se a palavra é palíndromo
-void inverso(char* palavra, char* inv); //Produz o inverso da palavra e armazena em inv
+int palindromo(char* palavra, int inicio, int fim);
 void imprime_resultado(char* palavra, int identicas);
+
 
 int main(void){
   char palavra[MAX + 1];
@@ -24,11 +24,12 @@ int main(void){
 
   le_string(palavra);
 
-  identicas = palindromo(palavra);
+  identicas = palindromo(palavra, 0, strlen(palavra) - 1);
 
   imprime_resultado(palavra, identicas);
 
   return 0;
+
 }
 
 void le_string(char* palavra){
@@ -36,26 +37,13 @@ void le_string(char* palavra){
   scanf("%s", palavra);
 }
 
-void inverso(char* palavra, char* inv){
-  int i, tam;
-
-  tam = strlen(palavra);
-  for(i = 0; i < tam; i++){ //copia o inverso da palavra em inv
-    inv[tam - 1 - i] = palavra[i];
-  }
-  inv[tam] = '\0'; //terminador de string
-}
 
 
-int palindromo(char* palavra){
-  char inv[MAX + 1];
+int palindromo(char* palavra, int inicio, int fim){
+  if (inicio >= fim) return 1;
 
-  inverso(palavra, inv); //produz o inverso da palavra e armazena em inv
+  return palavra[inicio] == palavra[fim] && palindromo(palavra, inicio + 1, fim - 1);
 
-  if(! strcmp(palavra, inv)) //se a palavra é igual ao seu inverso, então é palíndromo
-    return 1;
-  else
-    return 0; //senão, não é palíndromo
 
 }
 
@@ -65,6 +53,5 @@ void imprime_resultado(char* palavra, int identicas){
   }
   else{
     printf("A palavra %s não é um palíndromo\n", palavra);
-  }
+  } 
 }
-

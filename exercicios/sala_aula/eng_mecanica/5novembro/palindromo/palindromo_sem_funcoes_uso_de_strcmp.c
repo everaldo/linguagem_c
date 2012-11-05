@@ -3,7 +3,8 @@
  * Programa verifica se uma string é palíndromo
  *
  *
- *  Versão que não utiliza funções
+ *  Versão que não utiliza funções feitas pelo usuário
+ *  Apenas a função strcmp para comparar strings
  *
  */
 
