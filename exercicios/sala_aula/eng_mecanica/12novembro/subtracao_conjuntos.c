@@ -53,7 +53,8 @@ void imprime_vetor(int *v, int n){
   for(i = 0; i < n - 1; i++){
     printf("%d, ", v[i]);
   }
-  printf("%d]\n", v[n - 1]);
+  if(n) printf("%d]\n", v[n - 1]);
+  else printf("]\n");
 }
 
 void interseccao(int *v, int n, int* u, int m, int *inter, int *tam){
@@ -72,7 +73,6 @@ void interseccao(int *v, int n, int* u, int m, int *inter, int *tam){
     }
   }
 
-  imprime_vetor(inter, *tam);
 
 }
 
