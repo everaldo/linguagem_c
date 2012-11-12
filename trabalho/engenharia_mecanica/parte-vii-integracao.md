@@ -107,5 +107,5 @@ O tipo de retorno da função é void. Use passagem de parâmetros por referênc
 
 16\. Escreva uma função que receba dois argumentos do tipo inteiro (int) e compara-os. O nome da função é "compara"
 e o tipo de retorno é inteiro (int). Se os dois números são iguais, a função deve retornar zero. Se o primeiro argumento 
-é menor que o segundo, a função retorna -1. Senão, se o segundo argumento for maior que o primeiro, a função retorna 1.
+é menor que o segundo, a função retorna -1. Senão, se o primeiro argumento for maior que o segundo, a função retorna 1.
 
