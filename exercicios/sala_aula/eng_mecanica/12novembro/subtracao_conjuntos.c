@@ -66,7 +66,7 @@ void interseccao(int *v, int n, int* u, int m, int *inter, int *tam){
     for(j = 0 ; j < m; j++){
       if( v[i] == u[j]){
         inter[*tam] = v[i];
-        *tam++;
+        (*tam)++;
         break;
       }
     }
