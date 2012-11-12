@@ -14,9 +14,10 @@
 
 void le_vetor(int *v, int *n);
 void imprime_vetor(int *v, int n);
-void interseccao(int *v, int n, int *inter, int *tam);
+void interseccao(int *x, int n, int *y, int m, int *inter, int *tam);
 void remover(int* v, int *n, int x);
 void subtracao(int *x, int n, int *y, int m, int* s, int* tam);
+void copia(int* x, int n, int* c, int *tam);
 
 
 int main(void){
@@ -24,10 +25,8 @@ int main(void){
 
   le_vetor(a, &n);
   le_vetor(b, &m);
-  imprime_vetor(a, n);
-  imprime_vetor(b, m);
-//  subtracao(a, n, b, m, sub, &tam);
-//  imprime_vetor(sub, tam);
+  subtracao(a, n, b, m, sub, &tam);
+  imprime_vetor(sub, tam);
 
   return 0;
 }
@@ -57,9 +56,73 @@ void imprime_vetor(int *v, int n){
   printf("%d]\n", v[n - 1]);
 }
 
-void interseccao(int *v, int n, int *inter, int *tam){}
-void remover(int* v, int *n, int x){}
-void subtracao(int *x, int n, int *y, int m, int* s, int* tam){}
+void interseccao(int *v, int n, int* u, int m, int *inter, int *tam){
+
+  int i, j;
+
+  *tam = 0;
+
+  for(i = 0; i < n; i++){
+    for(j = 0 ; j < m; j++){
+      if( v[i] == u[j]){
+        inter[*tam] = v[i];
+        *tam++;
+        break;
+      }
+    }
+  }
+
+  imprime_vetor(inter, *tam);
+
+}
+
+void remover(int* v, int *n, int x){
+  int i, posicao;
+
+  for(i = 0; i < *n; i++){
+    if( v[i] == x){
+      posicao = i;
+      break;
+    }
+  }
+
+
+  for(i = posicao; i < *n - 1; i++){
+    v[i] = v[i + 1];
+  }
+  (*n)--; //mesmo que n = n - 1;
+
+
+
+}
+void subtracao(int *x, int n, int *y, int m, int* s, int* tam){
+
+  int inter[MAX], tam_inter;
+  int aux[MAX], tam_aux;
+  int i;
+
+  interseccao(x, n, y, m, inter, &tam_inter);
+
+  copia(x, n, aux, &tam_aux);
+
+  for(i = 0; i < tam_inter; i++){
+
+    remover(aux, &tam_aux, inter[i]);
+  }
+
+  copia(aux, tam_aux, s, tam);
+
+}
+
+void copia(int* x, int n, int* c, int *tam){
+  int i;
+
+  for(i = 0; i < n; i++){
+    c[i] = x[i];
+  }
+  *tam = n;
+
+}
 
 
 
