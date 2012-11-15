@@ -45,7 +45,9 @@ Dica: Para acessar o elemento de um array, você deve fornecer o índice entre o
 
 
 primeiro: v[0]
+
 décimo: v[9]
+
 último: v[99]
 
 
