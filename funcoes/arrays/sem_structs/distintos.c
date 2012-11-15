@@ -17,7 +17,7 @@ void distintos(int *v, int n, int* distintos, int *tam_distintos){
     }
     if (! repetido){
       distintos[*tam_distintos] = v[i];
-      *tam_distintos++;
+      (*tam_distintos)++;
     }
   }
 }
