@@ -33,7 +33,7 @@ Imprime "Não estou dentro do if". Porque não há delimitador de bloco.
 
 ``` 
 
-Imprime as duas mensagens. Porque há delimitador de bloco.
+Não imprime nenhuma mensagem. Porque há delimitador de bloco e a expressão é falsa.
 
 
 
