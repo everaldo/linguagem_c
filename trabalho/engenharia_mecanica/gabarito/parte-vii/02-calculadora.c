@@ -40,13 +40,16 @@ int main(){
 
     scanf("%d", &operacao);
 
-    if(operacao <= 0 || operacao > 4){
-     return 0;
+    if(operacao > 4){
+      puts("Operação inválida");
+      continue; //imprime novamente o menu
     }
 
-    /* Leitura dos operandos*/
-    puts("Digite os dois operandos");
-    scanf("%d %d", &x, &y);
+    if(operacao != 0){
+      /* Leitura dos operandos*/
+      puts("Digite os dois operandos");
+      scanf("%d %d", &x, &y);
+    }
 
     /* Execução da operação (cálculo)*/
     switch (operacao){
