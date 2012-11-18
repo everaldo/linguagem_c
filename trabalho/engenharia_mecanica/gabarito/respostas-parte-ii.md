@@ -8,7 +8,7 @@
 
 ## Comentários
 
-1. Explique a importância dos comentários no código-fonte do programa.
+1\. Explique a importância dos comentários no código-fonte do programa.
 
 Os comentários são trechos de texto incluídos no código-fonte, mas que não são considerados
 pelo compilador. Portanto, eles não estão presentes no código executável (programa).
@@ -22,13 +22,13 @@ comentados/descomentados para testar rotinas e funções e desabilitar código q
 Porém, não é uma boa prática deixar o código "sujo" com comentários que não possuem significado, na versão final.
 
 
-2. Explique o funcionamento dos comentários de linha. Símbolos utilizados e significado.
+2\. Explique o funcionamento dos comentários de linha. Símbolos utilizados e significado.
 
 São os comentários iniciados pelos símbolos //. Tudo que está escrito depois do // até o final da linha é considerado como comentário.
 
 Muito útil para pequenos comentários, que ocupam poucas palavras.
 
-3. Explique o funcionamento dos comentários de bloco. Símbolos utilizados e significados.
+3\. Explique o funcionamento dos comentários de bloco. Símbolos utilizados e significados.
 
 Um bloco de comentários inicia-se pelos símbolos /* e termina com */.
 Esses comentários podem ocupar várias linhas e são muito úteis na documentação ou para comentar trechos longos de código.
@@ -36,7 +36,7 @@ Esses comentários podem ocupar várias linhas e são muito úteis na documenta�
 
 ## Indentação
 
-1. Explique a importância da indentação na programação.
+1\. Explique a importância da indentação na programação.
 
 A indentação é um recurso visual, que consiste no recuo das linhas de código em relação ao bloco de código a que pertencem.
 Na Linguagem C, a indentação não influencia o código executável, é apenas estética.
@@ -47,7 +47,7 @@ Porém, deve-se ter cuidado, porque um código indentado errado pode "enganar" o
 
 Um código sem indentação é muito difícil de se ler, tomando tempo do programador e induzindo-o a erros.
 
-2. A indentação influencia o código executável? Por quê?
+2\. A indentação influencia o código executável? Por quê?
 
 Não. Porque na linguagem C os blocos são delimitados pelos símbolos { e }. A indentação é apenas um recurso visual.
 
@@ -55,7 +55,7 @@ Não. Porque na linguagem C os blocos são delimitados pelos símbolos { e }. A 
 ## Identificadores com nomes significativos
 
 
-1. Explique a importância do uso de nomes significativos para os identificadores.
+1\. Explique a importância do uso de nomes significativos para os identificadores.
 Exemplo: por que nomear uma variável com o nome *peso* ao invés de somente *p*.
 
 Os nomes significativos para os identificadores aumentam a legibilidade do código,
@@ -65,7 +65,7 @@ tornando mais fácil e rápido o seu entendimento. Eles não influenciam no cód
 
 ## Coloração de Sintaxe (Syntax Highligthing)
 
-1. Explique a importância do uso do recurso de coloração de sintaxe, no momento da escrita do código fonte.
+1\. Explique a importância do uso do recurso de coloração de sintaxe, no momento da escrita do código fonte.
 
 A coloração de sintaxe ajuda a identificar rapidamente expressões, palavras-chave, estruturas de controle (if, else, for),
 identificadores, strings e constantes. Ela permite identificar rapidamente erros de sintaxe, como um parênteses não fechado
