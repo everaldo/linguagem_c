@@ -20,7 +20,7 @@ voltas e o sentido da volta (horário ou anti-horário).
 
 
 int main(){
-  int angulo, sentido = HORARIO, num_voltas = 0; 
+  int angulo, sentido = ANTIHORARIO, num_voltas = 0; 
 
 
   printf("Digite um ângulo, em graus\n");
@@ -31,7 +31,7 @@ int main(){
 
   if (angulo < 0){
     angulo = angulo + 360;
-    sentido = ANTIHORARIO;
+    sentido = HORARIO;
   }
 
 
